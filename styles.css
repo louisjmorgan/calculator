@@ -1,0 +1,32 @@
+body {
+    font-family: monospace;
+    margin: 1rem;
+
+}
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+#display {
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(110, 110, 110);
+    width: 360px;
+    margin-bottom: 1rem;
+    text-justify: center;
+    padding: 50px 20px;
+    font-size: 200%;
+}
+
+#calcbuttons {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px; 
+}
+
+.calcbutton {
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(110, 110, 110)
+}
